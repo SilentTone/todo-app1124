@@ -88,3 +88,5 @@ Phase 2（コマ8〜）からは、この TODO アプリに Jest と React Testi
 カバレッジのレポートは artifact（`coverage-report`）に7日間保存されます。
 
 アプリ名は環境変数 `NEXT_PUBLIC_APP_NAME` で変えられます（`.env.example` を `.env.local` にコピーして編集）。CI では Variables の `APP_NAME` を使います。
+
+- 本番（Vercel）：https://todo-app-ユーザー名.vercel.app
